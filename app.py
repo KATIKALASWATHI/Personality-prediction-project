@@ -2,6 +2,7 @@ import flask
 import pickle
 import re
 import nltk
+nltk.download('all')
 nltk.data.path.append('nltk_data')
 
 from flask import Flask,render_template,url_for,request
