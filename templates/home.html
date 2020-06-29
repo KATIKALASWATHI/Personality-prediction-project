@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+       
+</head>
+<body>
+
+	<header>
+		<div class="container">
+		<div id="brandname">
+			Machine Learning App with Flask
+		</div>
+		<h2><center>Group Wise personality Detection</center></h2>
+		
+	</div>
+	</header>
+        <center>
+	<div class="ml-container">
+
+		<form action="{{ url_for('predict')}}" method="POST">
+		<p>Enter Your TEXT Here:</p>
+		<!-- <input type="text" name="comment"/> -->
+		<textarea name="message" rows="4" cols="100"></textarea>
+		<br/>
+
+		<input type="submit" class="btn-info" value="predict">
+		
+	</form>
+		
+	</div>
+        
+        <h1  class="text-muted" style="font-size: 150%;">Group-2 Project</h1>
+        <font color='gray' >
+        <li> Akshay </li>
+        <li> John </li>
+        <li> Megha </li>
+        <li> Rohith </li>
+        <li> Swathi</li>
+        </font>
+        
+       
+
+	<h2 class="text-muted" style="font-size:100%;">Click below link to get project:</h2>
+        <a href="https://github.com/KATIKALASWATHI/Personality-prediction-project">Project Link</a>
+	
+</center>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+     
+</head>
+<body>
+
+	<header>
+         <center>
+		<div class="container">
+		<div id="brandname">
+			Machine Learning App
+		</div>
+		<h2>This App Return Your Text Belongs to Which Group(A,B,C,D)</h2>
+		
+	</div>
+	</header>
+        </center>
+        <center>
+	<p style="color:purple;font-size:20;text-align:center;"><b>Results for Comment</b></p>
+	<div class="results">
+
+
+		
+	{% if prediction == 'A'%}
+	<h2 style="color:blue;">A</h2>
+	{% elif prediction == 'B'%}
+	<h2 style="color:green;">B</h2>
+        {% elif prediction == 'C'%}
+        <h2 style="color:purple;">C</h2>
+        {% elif prediction == 'D'%}
+        <h2  style="color:violet;">D</h2>
+	{% endif %}
+
+	</div>
+</center>
+</body>
+</html>
