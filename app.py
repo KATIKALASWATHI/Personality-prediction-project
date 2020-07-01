@@ -3,7 +3,8 @@ import pickle
 import re
 import nltk
 nltk.download('all')
-nltk.downloder()
+nltk.download()
+
 
 from flask import Flask,render_template,url_for,request
 
