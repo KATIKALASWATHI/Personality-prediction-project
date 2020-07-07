@@ -278,10 +278,7 @@ print(classification_report(y_test,y_pred7))
 
 
 -------------------------------------------------------------------
-import re
-import nltk
-import nltk
-nltk.data.path.append('nltk_data')
+
 
 
 
